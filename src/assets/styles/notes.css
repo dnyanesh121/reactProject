@@ -1,0 +1,38 @@
+.notes-block {
+    height: 100%;
+    padding: 1.75rem;
+    margin: 5px;
+    border-radius: 10px;
+    color: black;
+  }
+
+.singular-note{
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+
+  margin-bottom: 2%;
+  min-height: 30%;
+  width: 100%;
+  background-color: #ffff;
+  box-shadow: 0px 3px 15px 0px #00000040;
+  border-radius: 5px;
+}
+
+.singular-note-text{
+  line-height: 2;
+  text-align: left;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  padding-left: 1rem;
+  font-weight: 200;
+}
+.singular-note-time{
+
+  font-family: sans-serif;
+  font-size: 0.75rem;
+  text-align: right;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
